@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<br>
+    <img src="https://images.unsplash.com/photo-1494825514961-674db1ac2700?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FuYWRpYW4lMjBmb3Jlc3R8ZW58MHx8MHx8&w=1000&q=80" width="50%" alt="forest" id="image1">
+</br>
+    <button onclick="myClick">Prev</button>
+    <button onclick="myClick">Next</button>
+    
+    <script>
+       
+function myClick(){
+    let a = document.getElementById('image1').src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_EmPx_Kj073aofQROrCezj8p5_Q68IgI2WblXm6TZGbwNcBkNDKL5leNkyC2ps4fHBV0&usqp=CAU';
+    }
+document.querySelector(`button`).onclick=myClick;
+
+    </script>
+
+
+
+</body>
+</html>
