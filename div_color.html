@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.out-1{
+            width: 100px;
+            height: 100px;
+            background: orangered;
+            }
+.out-2{
+            width: 100px;
+            height: 100px;
+            background: rgb(76, 0, 255);
+        }
+.out-3{
+            width: 100px;
+            height: 100px;
+            background: rgb(0, 255, 247);
+                        }
+.out-4{
+            width: 100px;
+            height: 100px;
+            background: rgb(255, 0, 132);
+            }
+.selected{
+            width: 100px;
+            background: rgb(126, 53, 198);
+            height: 100px;
+}
+.selected1{
+            width: 100px;
+            background: rgb(73, 233, 14);
+            height: 100px;
+}
+.selected2{
+            width: 100px;
+            background: rgb(251, 247, 19);
+            height: 100px;
+}
+.selected3{
+            width: 100px;
+            background: rgb(43, 5, 231);
+            height: 100px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="out-1" onClick="blockColor(this)"></div>
+    <div class="out-2" onClick="blockColor1(this)"></div>
+    <div class="out-3" onClick="blockColor2(this)"></div>
+    <div class="out-4" onClick="blockColor3(this)"></div>
+
+    <script>
+function blockColor (sender){
+                    sender.classList.add("selected")
+                }
+function blockColor1 (sender){
+sender.classList.add("selected1")
+                }
+function blockColor2 (sender){
+sender.classList.add("selected2")
+                }
+function blockColor3 (sender){
+sender.classList.add("selected3")
+                }
+    </script>
+</body>
+</html>
